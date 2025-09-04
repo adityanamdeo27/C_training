@@ -8,7 +8,6 @@ int main(){
             flag = 0;
             break;
         }
-
     }
     if(flag)
         printf("%d is a prime number",n);
