@@ -6,7 +6,7 @@ void main(){
     printf("Enter a no. :");
     scanf("%d",&k);
     for(int i=0;i<k;i++){
-        int maxSum=windowsum;
+        windowsum+=arr[i];
     }
     for(int j=k;j<n;j++){
         windowsum=windowsum+arr[j]-arr[j-k];
