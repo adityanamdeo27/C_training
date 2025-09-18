@@ -7,4 +7,4 @@ void main(){
             printf("missing no. is  b/w %d\n",i);
         }
     }
-} 
+}
