@@ -7,8 +7,8 @@ void main(){
         current += arr[i];
         if(max<current)
             max = current;
-        if(max<0)
-            max = 0;
+        if (current < 0)
+            current = 0;  // reset current, not max
     }
     printf("max :%d",max);
 }
