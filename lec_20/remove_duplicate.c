@@ -5,8 +5,8 @@ int main(){
     int n = strlen(str);
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if(str[i]==str[j]){
-                str[i] = 1;
+            if(str[j]==str[i]){
+                str[j] = 1;
             }
         }
     }
